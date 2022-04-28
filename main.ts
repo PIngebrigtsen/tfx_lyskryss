@@ -1,6 +1,3 @@
-input.onPinPressed(TouchPin.P0, function () {
-	
-})
 function B_grønn_A_Rød () {
     LysgruppeA_grønn_rød()
     basic.pause(Helrød_tid)
