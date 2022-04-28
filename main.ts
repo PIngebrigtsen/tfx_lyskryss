@@ -89,7 +89,6 @@ pins.digitalWritePin(DigitalPin.P7, 0)
 pins.digitalWritePin(DigitalPin.P8, 1)
 pins.digitalWritePin(DigitalPin.P9, 0)
 pins.digitalWritePin(DigitalPin.P10, 1)
-// # P11=KnappB
 basic.forever(function () {
     if (KnappAIsPressed == 1 || KnappBIsPressed == 1) {
         while (input.runningTime() - timer <= Grønntid_min) {
